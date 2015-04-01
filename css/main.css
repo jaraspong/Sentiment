@@ -1,0 +1,99 @@
+body{
+	font: 0.9em Arial;
+}
+.header-center{
+
+	max-height :70px;
+	max-width: 800px;
+	position: relative;
+	top: 0;
+}
+.header-left{
+	max-height :100px;
+	max-width: 130px;
+	position: relative;
+	top: 30px;
+}
+
+.sub-header{
+	background-color: #ababab;
+	width: 600px;
+	font-size: 1.3em;
+	padding: 5px;
+	height: 20px;
+position: relative;
+left : 140px;
+	color: #f0f0f0;
+}
+div.clear{
+	clear: both;
+}
+div.header{
+	float: left;
+	height: 186px;
+	width: 880px;
+	background: transparent url('../images/logo.png') no-repeat left top;
+}
+div.container{
+	width: 800px;
+	margin: 0 auto;
+}
+div.box{
+	margin-top:10px;
+}
+button,a.login{
+	display: block;
+	height: 30px;
+	width: 120px;
+	background: -webkit-linear-gradient(top, #e8f0f1 0%, #9be1e6 100%) #34696f;
+	background: -moz-linear-gradient(top, #e8f0f1 0%, #9be1e6 100%) #34696f;
+	background: -ms-linear-gradient(top, #e8f0f1 0%, #9be1e6 100%) #34696f;
+	background: -o-linear-gradient(top, #e8f0f1 0%, #9be1e6 100%) #34696f;
+	background: linear-gradient(to bottom, #e8f0f1 0%, #9be1e6 100%) #34696f;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+	font: 1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	 
+  text-decoration: none;
+-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	 
+	-webkit-box-shadow: 0 8px 0 #1b383b;
+	-moz-box-shadow: 0 8px 0 #1b383b;
+	box-shadow: 0 8px 0 #1b383b;
+	 
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.result-box{
+	  width: 800px;
+}
+.status{
+	float: left;
+	height: 110px;
+	width: 100px;
+}
+.status img{
+	max-height: 100px;
+	max-width: 150px;
+}
+.status-text{
+	float: left;
+	font-size: 3em;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 650px;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
+.yellow{
+	color: yellow;
+}
